@@ -1,12 +1,11 @@
 .home {
 
   header {
-    img {
-      margin-bottom: 2%;
-    }
+    border-bottom: 2px dashed @navigation-border;
+    padding-bottom: 2%;
 
-    .text-content {
-      border-bottom: 2px dashed #C0C0C0;
+    img {
+      margin-bottom: 1%;
     }
   }
 
@@ -64,8 +63,12 @@
     justify-content: space-between;
 
     .destination {
-      width: 30%;
+      width: 26%;
       margin-bottom: 30px;
+
+      .btn {
+        .button(@button-bg, @white);
+      }
     }
   }
 }// home
