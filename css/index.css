@@ -89,6 +89,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  border: 1px solid grey;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -167,6 +168,25 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.navigation-div {
+  border-bottom: 2px dashed #C0C0C0;
+}
+.navigation-div .navigation-content {
+  margin: 0 auto;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.navigation-div .navigation-content nav {
+  flex-grow: 3;
+  display: flex;
+  justify-content: space-evenly;
+}
+.navigation-div .navigation-content div {
+  width: 45%;
 }
 .footer {
   width: 100%;
